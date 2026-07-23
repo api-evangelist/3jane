@@ -1,0 +1,19 @@
+generated: '2026-07-17'
+method: searched
+source: live probes of /.well-known/ on 3jane.xyz hosts
+host: https://www.3jane.xyz
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  3Jane is an Ethereum-mainnet smart-contract protocol; it publishes no
+  /.well-known/ discovery surface. An llms.txt IS published on the docs host
+  (https://docs.3jane.xyz/llms.txt), captured verbatim at llms/3jane-llms.txt.

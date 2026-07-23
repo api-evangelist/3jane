@@ -1,21 +1,52 @@
 aid: 3jane
 name: 3Jane
-description: '3Jane is a company surfaced as a portfolio company of paradigm and added to the API Evangelist
-  network as a stub for enrichment. Sector: crypto-defi. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  3Jane is an Ethereum-mainnet credit-based money market that issues algorithmic,
+  real-time uncollateralized USDC credit lines underwritten against verifiable
+  financial proofs rather than on-chain collateral. Its 3CA credit-assessment
+  algorithm and Jane Score combine on-chain history with off-chain signals
+  (bank data via Plaid, VantageScore/credit metadata, zkTLS proofs via Reclaim
+  Protocol and EigenLayer). Capital suppliers deposit USDC to mint USD3, a
+  yieldcoin with a senior claim on interest repayments, or stake it for sUSD3, a
+  junior tranche that earns levered yield while absorbing first losses. Backing
+  comes from Fintech Credit Conduits (warehouse loans and forward-flow programs
+  for U.S. fintech lenders) and Crypto Credit Lines. The protocol is governed by
+  a timelock and multisig and coordinated by the JANE token. 3Jane raised a
+  $5.2M seed round led by Paradigm, with Coinbase Ventures and Wintermute
+  Ventures participating.
 url: https://raw.githubusercontent.com/api-evangelist/3jane/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - paradigm
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enrichment-pipeline-2026-07-17
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://3jane.xyz/og-image.png
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
 - Crypto Defi
+- DeFi
+- Lending
+- Credit
+- Uncollateralized Lending
+- Stablecoin
+- Money Market
+- Ethereum
+- Yield
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +56,46 @@ maintainers:
 common:
 - type: Website
   url: https://www.3jane.xyz
+- type: Documentation
+  url: https://docs.3jane.xyz
+- type: APIReference
+  name: Smart Contract Addresses (Ethereum Mainnet)
+  url: https://docs.3jane.xyz/developers/addresses
+- type: GettingStarted
+  name: Supply USDC
+  url: https://docs.3jane.xyz/usd3-susd3/supply-usdc
+- type: GitHubOrganization
+  url: https://github.com/3jane-protocol
+- type: SignUp
+  name: Launch App
+  url: https://app.3jane.xyz/farm
+- type: Support
+  name: Discord
+  url: https://discord.com/invite/xzfNggwBjH
+- type: Blog
+  name: Mirror
+  url: https://mirror.xyz/0x763E83224239b339788c36652EFA9f40107EFf2C
+- type: Twitter
+  url: https://twitter.com/3janexyz
+- type: TermsOfService
+  url: https://www.3jane.xyz/pdf/terms-of-service.pdf
+- type: PrivacyPolicy
+  url: https://www.3jane.xyz/pdf/policy.pdf
+- type: Whitepaper
+  url: https://www.3jane.xyz/pdf/whitepaper.pdf
+- type: FAQ
+  url: https://docs.3jane.xyz/resources/faq
+- type: Audits
+  name: Security Audits
+  url: https://docs.3jane.xyz/resources/audits
+- type: LLMsTxt
+  url: llms/3jane-llms.txt
+- type: WellKnown
+  url: well-known/3jane-well-known.yml
+- type: DomainSecurity
+  url: security/3jane-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
