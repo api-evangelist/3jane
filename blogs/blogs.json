@@ -9,6 +9,13 @@
       "method": "discovered"
     },
     {
+      "source": "https://mirror.xyz/0x763E83224239b339788c36652EFA9f40107EFf2C/blog/rss/",
+      "feed_url": "https://mirror.xyz/0x763E83224239b339788c36652EFA9f40107EFf2C/blog/rss/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://discord.com/invite/xzfNggwBjH",
       "feed_url": "https://discord.com/invite/xzfNggwBjH",
       "title": "",
@@ -16,6 +23,6 @@
       "method": "none"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 6,
+  "fetched": "2026-10-17T14:53:57Z"
 }
