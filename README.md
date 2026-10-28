@@ -64,6 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-3Jane is a company surfaced as a portfolio company of paradigm and added to the API Evangelist network as a stub for enrichment. Sector: crypto-defi. This profile is a lead awaiting the enrichment pipeline.
+3Jane is an Ethereum-mainnet credit-based money market that issues algorithmic, real-time uncollateralized USDC credit lines underwritten against verifiable financial proofs rather than on-chain collateral. Its 3CA credit-assessment algorithm and Jane Score combine on-chain history with off-chain signals (bank data via Plaid, VantageScore/credit metadata, zkTLS proofs via Reclaim Protocol and EigenLayer). Capital suppliers deposit USDC to mint USD3, a yieldcoin with a senior claim on interest repayments, or stake it for sUSD3, a junior tranche that earns levered yield while absorbing first losses. Backing comes from Fintech Credit Conduits (warehouse loans and forward-flow programs for U.S. fintech lenders) and Crypto Credit Lines. The protocol is governed by a timelock and multisig and coordinated by the JANE token. 3Jane raised a $5.2M seed round led by Paradigm, with Coinbase Ventures and Wintermute Ventures participating.
 
-Backed by: paradigm — https://www.3jane.xyz
+**Areas:** Company · Crypto Defi · DeFi · Lending · Credit · Uncollateralized Lending · Stablecoins · Money Market · Ethereum · Yield
+
+## 3Jane on APIs.io
+
+Everything profiled for 3Jane is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/3jane/](https://apis.io/providers/3jane/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [3Jane Domain Security](https://apis.io/security/3jane/3jane-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.3jane.xyz)
+- [Documentation](https://docs.3jane.xyz)
+- [Getting started](https://docs.3jane.xyz/usd3-susd3/supply-usdc)
+- [API reference](https://docs.3jane.xyz/developers/addresses)
+- [Sign up](https://app.3jane.xyz/farm)
+- [Support](https://discord.com/invite/xzfNggwBjH)
+- [Blog](https://mirror.xyz/0x763E83224239b339788c36652EFA9f40107EFf2C)
+- [Terms of service](https://www.3jane.xyz/pdf/terms-of-service.pdf)
+- [Privacy policy](https://www.3jane.xyz/pdf/policy.pdf)
+- [GitHub](https://github.com/3jane-protocol)
+
+## API Evangelist rating
+
+**Kin Score 19.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/3jane/](https://apis.io/providers/3jane/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 3Jane: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/3jane/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
